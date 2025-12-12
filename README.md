@@ -25,7 +25,7 @@
 
 ## 参考
 1. [项目源码](https://github.com/junjiem/dify-plugin-repackaging)
-2. [dify_plugin](https://github.com/langgenius/dify-plugin-daemon)
+2. [dify-plugin-daemon](https://github.com/langgenius/dify-plugin-daemon)
 
 ## 其他问题
 ### 由于 GCC 版本过低，导致安装 NumPy 失败
