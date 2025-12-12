@@ -7,7 +7,7 @@
     * 创建环境: `conda create -n repackage python=3.12.3`
     * 激活环境: `conda activate repackage`
 3. 执行脚本: `bash plugin_repackaging.sh -p manylinux_2_17_x86_64 local <下载的离线插件绝对路径>`
-4. dify 服务需要修改的配置，并重启 dify-api、nginx、dify-plugin-daemon 服务
+4. 修改 dify 对应的配置文件，并重启 dify-api、nginx、dify-plugin-daemon 服务
    * `FORCE_VERIFYING_SIGNATURE=false`，禁用签名确认，允许安装非 dify 官方市场的插件
    * `PLUGIN_MAX_PACKAGE_SIZE=524288000`，增加 dify 可安装插件的大小
    * `NGINX_CLIENT_MAX_BODY_SIZE=500M`，增加 nginx 可上传文件的大小
